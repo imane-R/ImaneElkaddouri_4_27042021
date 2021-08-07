@@ -121,7 +121,7 @@ focuscgu1.checked === true
  else
  {
   errorCheck.textContent="Vous devez accepter les conditions d'utilisation";
-  errorCheck.style.fontSize = "14px";
+  errorCheck.style.fontSize = "12px";
   errorCheck.style.color = "red"
   }  
   return false;
