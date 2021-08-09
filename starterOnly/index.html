@@ -58,7 +58,7 @@
           <form name="reserve" action="index.html" method="get" onsubmit="return validate();" id="form">
             <div class="formData">
               <label for="first">Prénom</label><br>
-              <input class="text-control" type="text" id="first" name="first"/><br>
+              <input class="text-control" type="text" id="first" name="first" /><br>
               <span id="error_firstName"></span>
             </div>
             <div class="formData">
@@ -107,7 +107,7 @@
               <label class="checkbox-label" for="location6">
                 <span class="checkbox-icon"></span>
                 Portland</label><br>
-                <span id="error_cities"></span>
+              <span id="error_cities"></span>
             </div>
 
             <div class="formData">
@@ -128,6 +128,8 @@
             <input id="submitButon" class="btn-submit" type="submit" class="button" value="C'est parti" />
           </form>
         </div>
+        <!--Ajout du bouton de fermeture de la page de remerciement-->
+        <input class="btn-close" type="submit" value="fermer" />
       </div>
     </div>
   </main>
